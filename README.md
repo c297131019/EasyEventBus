@@ -27,10 +27,12 @@ dependencies {
     }
 
 4、发送事件
-     1）
+      1）
          //这种针对指定的对象发送
+	 
          EventBusManager.getInstance().sendMsg(MainActivity.class,"6666");
 
       2）
          //这种对所有事件接收对象发送
+	 
          EventBusManager.getInstance().sendMsg("6666");
